@@ -1,0 +1,32 @@
+{
+  "name": "@aki77/actions-hash-files",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "aki77",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aki77/actions-hash-files.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc",
+    "lint": "xo"
+  },
+  "xo": {
+    "space": true
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6",
+    "xo": "^0.32.1"
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "lib"
+  ],
+  "dependencies": {
+    "@actions/glob": "^0.1.0"
+  }
+}
